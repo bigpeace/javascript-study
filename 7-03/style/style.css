@@ -1,0 +1,11 @@
+input[type="text"]{
+	padding: 4px;
+	font-size: 16px;
+}
+#zipcode {
+	width: 150px;
+}
+#address1,
+#address2 {
+	width: 400px;
+}
