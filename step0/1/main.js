@@ -28,3 +28,21 @@ for (var i = 0; i < fruitElms.length; i++) {
     var fruitElm = fruitElms[i];
     console.log(fruitElm.textContent);
 }
+
+var colorsObj = {
+    red: 'あか',
+    green: 'みどり',
+    'blue': 'あお'
+};
+
+console.log(colorsObj);
+
+console.log(colorsObj['red']);
+console.log(colorsObj.red);
+console.log(colorsObj.blue);
+
+colorsObj['red'] = 'レッド';
+console.log(colorsObj.red);
+
+colorsObj.blue = 'ブルー';
+console.log(colorsObj.blue);
